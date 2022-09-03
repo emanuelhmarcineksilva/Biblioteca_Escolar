@@ -1,0 +1,142 @@
+header {
+	background: url(roda.jpg);
+	padding: 40px 0;
+}
+
+body {
+	background: url(fundo.jpg);
+}
+
+.logo {
+	border: 2px solid #000000;
+	width: 15%;
+}
+
+.topico {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 85px;
+	right: 30px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+nav a:hover {
+	color: rgb(139, 69, 19);
+	text-decoration: underline;
+	transform: scale();
+}
+
+nav a:active {
+	color: rgb(0, 0, 200);
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+}
+
+#imag {
+	width: 20%;
+    margin: 20px;
+    padding-left: 50px;
+    display: inline-block;
+}
+
+.paragrafo {
+	font-size: 23px;
+	margin: 50px 60px;
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+}
+
+.divisão-linha {
+	margin: 30px 20px 30px 20px;
+}
+
+h2, h3 {
+	font-size: 30px;
+	margin: 50px 30px;
+}
+
+form {
+	margin: 20px 40px;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 10px 0 20px 10px;
+	padding: 10px 25px;
+	width: 30%;
+}
+
+.enviar {
+	width: 20%;
+	padding: 15px 0;
+	background: rgb(130, 100, 80);
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 25px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: rgb(90, 60, 50);
+}
+
+h3 {
+	text-align: center;
+}
+
+.buscar {
+	width: 50%;
+	padding: 10px 50px;
+	border: 2px solid;
+	border-radius: 25px;
+	margin: 80px 20px 160px;
+	font-size: 20px;
+}
+
+
+footer {
+	text-align: center;
+	background: url(roda.jpg);
+	padding: 60px;
+}
+
+
+
+.copyright {
+	color: #000000;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
